@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Oxford</title>
+	  <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  </head>
+  <body>
+  	
+	<div class="container">
+	  <h1>Project Oxford Example</h1>
+	  <div class="form-group">
+	    <label for="imageUrl">Image URL</label>
+	    <input type="text" class="form-control" id="imageUrl" placeholder="Image URL">
+	  </div>
+	  <button type="button" class="btn btn-default" onclick="checkImage()">Submit</button>
+		
+		<div class="row">
+			<div class="col-md-4">
+				<div>
+					<h3>Face API</h3>
+				</div>
+				<div>
+					<h4>Gender: <span id="genderSpan"></span></h4>	
+				</div>
+				<div>
+					<h4>Age: <span id="ageSpan"></span></h4>
+				</div>
+				<div>
+					<h3>Emotion API</h3>
+				</div>
+				<div>
+					<h4>Anger: <span id="angerSpan"></span></h4>	
+				</div>
+				<div>
+					<h4>Contempt: <span id="contemptSpan"></span></h4>	
+				</div>
+				<div>
+					<h4>Disgust: <span id="disgustSpan"></span></h4>	
+				</div>
+				<div>
+					<h4>Fear: <span id="fearSpan"></span></h4>	
+				</div>
+				<div>
+					<h4>Happiness: <span id="happinessSpan"></span></h4>	
+				</div>
+				<div>
+					<h4>Neutral: <span id="neutralSpan"></span></h4>	
+				</div>
+				<div>
+					<h4>Sadness: <span id="sadnessSpan"></span></h4>	
+				</div>
+				<div>
+					<h4>Surprise: <span id="surpriseSpan"></span></h4>	
+				</div>
+			</div>
+			<div class="col-md-8">
+				<img src="" id="imageHolder" class="img-responsive" width="550" height="236"> 
+			</div>
+		</div>
+
+
+	</div>
+
+	
+	
+
+	<script src="https://code.jquery.com/jquery-2.1.4.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js" type="text/javascript"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  
+	<script type="text/javascript" src="/javascripts/myscript.js"></script>
+
+  </body>
+</html>
